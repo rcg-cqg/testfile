@@ -14,7 +14,7 @@ echo -e "\e[0m"
 echo "<!DOCTYPE html><html><head><style>
 body{margin:0;display:flex;justify-content:center;align-items:center;height:100vh;background:#000;color:red;font:3em monospace}
 .blink{animation:blink 1s infinite}@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
-</style></head><body><div class="blink">Pwned by TOYOTA-RAIZE</div></body></html>" > /var/www/html/hacked.html
+</style></head><body><div class="blink">HACKED by TOYOTA-RAIZE</div></body></html>" > /var/www/html/hacked.html
 
 # Capture basic host info (for simulation)
 echo "[+] Host Compromised" > /tmp/pwned.txt
